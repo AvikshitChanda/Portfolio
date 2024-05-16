@@ -53,26 +53,26 @@
 .skillName h3 {
     color: white;
 }
-/* Updated CSS for Skills Section */
+
 @media only screen and (max-width: 768px) {
     .SkillsContainer {
 
       position: relative;
       bottom: 150px;
-      height: auto; /* Remove fixed height */
+      height: auto; 
     }
   
     .skills {
       display: grid;
-      grid-template-columns: repeat(2, 1fr); /* Two skills per row */
-      gap: 30px; /* Adjust gap between skills */
-      justify-items: center; /* Center items horizontally */
-      align-items: center; /* Center items vertically */
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 30px; 
+      justify-items: center; 
+      align-items: center; 
     }
   
     .parentContainer {
-      width: 100%; /* Each skill takes 100% of the row */
-      margin-bottom: 20px; /* Add space between rows */
+      width: 100%;
+      margin-bottom: 20px;
     }
   }
   

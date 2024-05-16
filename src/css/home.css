@@ -28,7 +28,7 @@
     font-style: normal;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Align items vertically */
+    align-items: center;
 }
 
 .startLines h1 {
@@ -103,59 +103,58 @@
     height: 100%;
     border-radius: 30px;
 }
-/* Updated CSS for Home Section */
+
 @media only screen and (max-width: 768px) {
     .homeSection {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: auto; /* Remove fixed height */
-      margin-top: 0; /* Remove top margin */
-      padding: 20px; /* Add padding */
+      height: auto;
+      margin-top: 0; 
+      padding: 20px; 
     }
   
     .profilpic {
         position: relative;
         top: -400px;
-      margin-right: -2px; /* Remove right margin */
-      margin-top: 20px; /* Adjust margin */
-      width: 70%; /* Set width to full */
-      max-width: 300px; /* Set maximum width for better responsiveness */
-      height: auto; /* Allow height to adjust */
+      margin-right: -2px; 
+      width: 70%; 
+      max-width: 300px; 
+      height: auto;
     }
   
     .profilpic img {
-      border-radius: 15px; /* Decrease border radius */
+      border-radius: 15px; 
     }
   
     .startLines {
         position: relative;
         top: 340px;
         margin-right: 40px;
-        padding: 0; /* Remove padding */
-        width: 100%; /* Set width to full */
-        max-width: 300px; /* Set maximum width for better responsiveness */
-        text-align: center; /* Center text */
+        padding: 0; 
+        width: 100%; 
+        max-width: 300px; 
+        text-align: center; 
     }
   
     .startLines h1 {
-      font-size: 45px; /* Decrease font size */
+      font-size: 45px; 
     }
   
     .startLines h4 {
-      font-size: 15px; /* Decrease font size */
+      font-size: 15px; 
     }
   
     .startLines h5 {
         margin-left: 20px;
-      font-size: 20px; /* Decrease font size */
+      font-size: 20px;
     }
   
     .resume {
-      margin-top: 20px; /* Adjust margin */
-      width: 140px; /* Decrease button width */
-      height: 35px; /* Decrease button height */
-      font-size: 13px; /* Decrease font size */
+      margin-top: 20px; 
+      width: 140px; 
+      height: 35px; 
+      font-size: 13px; 
     }
   }
   

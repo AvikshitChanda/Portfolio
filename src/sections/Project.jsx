@@ -24,10 +24,10 @@
                                 <p className='projectName'>{d.name}</p>
                                 <p>{d.description}</p>
                             <div>
-                                    <a href={d.githublink} style={{ display: 'inline-block',marginRight:'70px' }}>
+                                    <a href={d.githublink} target='_blank' style={{ display: 'inline-block',marginRight:'70px' }}>
                                         <img src={GithubIcon} alt="#" />
                                     </a>
-                                    <a href={d.livelink} style={{ display: 'inline-block' }}>
+                                    <a href={d.livelink} target='_blank' style={{ display: 'inline-block' }}>
                                         <img src={LiveIcon} alt="#" />
                                     </a>
     </div>

@@ -113,28 +113,28 @@
   }
   @media only screen and (max-width: 768px) {
     .ContactContainer {
-      margin-top: 5%; /* Adjust top margin */
+      margin-top: 5%; 
     }
   
     .formContainer {
-      width: 90%; /* Adjust form container width */
-      margin-left: 5%; /* Adjust left margin */
-      height: auto; /* Remove fixed height */
-      padding: 10px; /* Adjust padding */
+      width: 90%; 
+      margin-left: 5%; 
+      height: auto; 
+      padding: 10px; 
     }
   
     .formContainer input[type="text"],
     .formContainer input[type="email"],
     .formContainer textarea {
-      width: 90%; /* Adjust input width */
-      padding: 15px; /* Adjust input padding */
-      margin-bottom: 20px; /* Adjust input margin */
+      width: 90%; 
+      padding: 15px; 
+      margin-bottom: 20px;
     }
   
     .formContainer input[type="submit"] {
-      width: 70%; /* Adjust submit button width */
-      margin-left: 15%; /* Adjust submit button margin */
-      font-size: 18px; /* Adjust submit button font size */
+      width: 70%;
+      margin-left: 15%; 
+      font-size: 18px;
     }
   
     .linkContainer {
@@ -144,28 +144,28 @@
     }
   
     .topRow {
-      font-size: 20px; /* Adjust font size */
-      margin-left: 0; /* Remove left margin */
+      font-size: 20px; 
+      margin-left: 0; 
     }
   
     .bottomRow img {
-      width: 50px; /* Adjust social media icon width */
-      height: 50px; /* Adjust social media icon height */
-      margin: 0 20px; /* Adjust social media icon margin */
+      width: 50px; 
+      height: 50px; 
+      margin: 0 20px; 
     }
   
     .orSeparator {
         
-      right: 90px; /* Adjust right position */
-        /* Adjust bottom position */
+      right: 90px; 
+        
     }
     .orSeparator p{
         font-size: 20px;
     }
   
     .messageBox {
-      width: 90%; /* Adjust message box width */
-      margin-left: 5%; /* Adjust message box margin */
+      width: 90%; 
+      margin-left: 5%; 
     }
   }
   

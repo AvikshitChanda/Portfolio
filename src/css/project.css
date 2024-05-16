@@ -95,52 +95,52 @@
     width: 70px;
     height: 70px;
 }
-/* Updated CSS for Project Section */
+
 @media only screen and (max-width: 768px) {
     .projectContainer {
       position: relative;
       bottom: 160px;
-      height: auto; /* Remove fixed height */
+      height: auto; 
     }
   
     .heading h1{
-      font-size: 30px; /* Decrease font size */
-      margin-bottom: 5%; /* Adjust margin */
-      text-align: center; /* Center text */
+      font-size: 30px; 
+      margin-bottom: 5%; 
+      text-align: center;
     }
   
     .projectSlider {
-      flex-direction: column; /* Stack items vertically on smaller screens */
-      align-items: center; /* Center items */
-      gap: 40px; /* Adjust gap */
+      flex-direction: column; 
+      align-items: center; 
+      gap: 40px; 
     }
   
     .sliderContainer {
-      width: 90%; /* Adjust width */
-      max-width: 400px; /* Limit width */
+      width: 90%; 
+      max-width: 400px; 
     }
   
     .imgContainer {
-      height: 200px; /* Adjust height */
+      height: 200px;
     }
   
     .infoContainer {
-      padding: 10px; /* Adjust padding */
+      padding: 10px; 
     }
   
     .projectName {
-      font-size: 20px; /* Decrease font size */
-      text-align: center; /* Center text */
+      font-size: 20px; 
+      text-align: center; 
     }
   
     .infoContainer p {
-      font-size: 16px; /* Decrease font size */
-      line-height: 1.5; /* Adjust line height */
+      font-size: 16px;
+      line-height: 1.5; 
     }
   
     .infoContainer img {
-      width: 50px; /* Decrease image size */
-      height: 50px; /* Decrease image size */
+      width: 50px;
+      height: 50px; 
     }
   }
   
