@@ -1,0 +1,78 @@
+.SkillsContainer {
+    margin-top: 25%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.heading {
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.parentContainer {
+    width: 200px;
+    height: 200px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 2px solid rgb(0, 212, 255);
+}
+
+.parentContainer:hover {
+    box-shadow: 0px 0px 25px rgba(0, 212, 255, 0.7);
+    transform: scale(1.1); 
+}
+
+.icon {
+   
+    margin-bottom: 10px;
+}
+.icon img {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.skillName h3 {
+    color: white;
+}
+/* Updated CSS for Skills Section */
+@media only screen and (max-width: 768px) {
+    .SkillsContainer {
+
+      position: relative;
+      bottom: 150px;
+      height: auto; /* Remove fixed height */
+    }
+  
+    .skills {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two skills per row */
+      gap: 30px; /* Adjust gap between skills */
+      justify-items: center; /* Center items horizontally */
+      align-items: center; /* Center items vertically */
+    }
+  
+    .parentContainer {
+      width: 100%; /* Each skill takes 100% of the row */
+      margin-bottom: 20px; /* Add space between rows */
+    }
+  }
+  

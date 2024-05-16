@@ -1,0 +1,171 @@
+.ContactContainer{
+    margin-top: 10%;
+}
+
+.formContainer {
+    height: 80vh;
+    width: 45%; 
+    padding: 20px;
+    float: left; 
+    margin-bottom: 6%;
+    margin-left: 5%;
+   
+    border-radius: 15px;
+}
+
+.formContainer label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer textarea {
+    width: 70%;
+    padding: 20px;
+    margin-bottom: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.5); 
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.formContainer input[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-left: 20%;
+    height: 50px;
+    border: none;
+    background-color: #4CAF50; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formContainer input[type="submit"]:hover {
+    background-color: #45a049; 
+}
+
+.linkContainer {
+    margin-top: 17%;
+    display: grid;
+    grid-template-rows: auto auto; 
+    grid-gap: 80px; 
+    justify-content: center;
+}
+
+.topRow {
+    display: flex;
+    align-items: center; 
+    color: white;
+    font-size: 27px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+
+.bottomRow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomRow img {
+    width: 70px;
+    height: 70px; 
+    margin: 0 50px; 
+    cursor: pointer;
+}
+.bottomRow img:hover{
+    transform: scale(1.2);
+}
+
+.orSeparator {
+    display: flex;
+   position: relative;
+   right: 170px;
+   bottom: 170px;
+}
+
+.orSeparator p {
+    color: white;
+    margin: 0 10px; 
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.messageBox {
+
+    color: #721c24; 
+    padding: 5px; 
+    margin-top: 40px;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    margin-left: 60px;
+    width: 50%;
+  }
+  
+  .messageBox.success {
+    background-color: #d4edda; 
+    color: white; 
+  }
+  @media only screen and (max-width: 768px) {
+    .ContactContainer {
+      margin-top: 5%; /* Adjust top margin */
+    }
+  
+    .formContainer {
+      width: 90%; /* Adjust form container width */
+      margin-left: 5%; /* Adjust left margin */
+      height: auto; /* Remove fixed height */
+      padding: 10px; /* Adjust padding */
+    }
+  
+    .formContainer input[type="text"],
+    .formContainer input[type="email"],
+    .formContainer textarea {
+      width: 90%; /* Adjust input width */
+      padding: 15px; /* Adjust input padding */
+      margin-bottom: 20px; /* Adjust input margin */
+    }
+  
+    .formContainer input[type="submit"] {
+      width: 70%; /* Adjust submit button width */
+      margin-left: 15%; /* Adjust submit button margin */
+      font-size: 18px; /* Adjust submit button font size */
+    }
+  
+    .linkContainer {
+        position: relative;
+      top: 510px;
+      right: 220px;
+    }
+  
+    .topRow {
+      font-size: 20px; /* Adjust font size */
+      margin-left: 0; /* Remove left margin */
+    }
+  
+    .bottomRow img {
+      width: 50px; /* Adjust social media icon width */
+      height: 50px; /* Adjust social media icon height */
+      margin: 0 20px; /* Adjust social media icon margin */
+    }
+  
+    .orSeparator {
+        
+      right: 90px; /* Adjust right position */
+        /* Adjust bottom position */
+    }
+    .orSeparator p{
+        font-size: 20px;
+    }
+  
+    .messageBox {
+      width: 90%; /* Adjust message box width */
+      margin-left: 5%; /* Adjust message box margin */
+    }
+  }
+  

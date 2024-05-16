@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+#particles canvas{
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px; 
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background:#2C4E80
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #7BC9FF; 
+    border-radius: 5px; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: #7BC9FF; 
+  }
+  .loader-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999; 
+  }
+  
