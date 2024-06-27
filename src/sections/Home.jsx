@@ -16,7 +16,7 @@ const Home = () => {
           <br />
           <h5>WEB DEVELOPER</h5>
          
-          <a href="https://drive.google.com/file/d/1QYVsXQ2hffoQwraeKrS6MPxGmoRqIVRK/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1HTZ-05djECV0QpX6UPCJMGrkWZDIKZ7q/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <button className='resume'>Download Resume</button>
           </a>
         </div>
